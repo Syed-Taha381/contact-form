@@ -37,12 +37,17 @@
                     <option value="Other">Other</option>
                 </select><br>
                 <textarea id="message" cols="30" rows="10" class="form-input" placeholder="Description"></textarea><br>
-                <input type="submit" value="Send Message" class="submit-form">
+                <input type="submit" value="Send Message" class="submit-form" onclick="Open()">
             </form>
         </div>
     </div>
 
 
+    <script>
+         function Open() {
+                window.open("./thanks.html", "_blank");
+            }
+    </script>
     <script src="/js/app.js"></script>
 </body>
 

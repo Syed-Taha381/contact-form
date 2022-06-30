@@ -33,7 +33,8 @@ contactForm.addEventListener('submit', (e) => {
             select.value = "";
             message.value = "";
         } else {
-            window.location.href="./thanks.html"
+            // window.location.href=("./thanks.html", '_blank')
+           
         }
     }
 
