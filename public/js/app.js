@@ -26,14 +26,14 @@ contactForm.addEventListener('submit', (e) => {
     xhr.onload = function () {
         console.log(xhr.responseText);
         if (xhr.responseText == 'success') {
-            alert('Email Send');
+            // alert('Email Send');
             names.value = "";
             email.value = "";
             number.value = "";
             select.value = "";
             message.value = "";
         } else {
-            alert('something went worong!')
+            window.location.href="./thanks.html"
         }
     }
 
