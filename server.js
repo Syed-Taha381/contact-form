@@ -27,7 +27,7 @@ app.post('/', (req, res)=>{
 
     const mailOptions = {
         from: req.body.email,
-        to: "hello.srp.ai@gmail.com",
+        to: "hello.srp.ai@gmail.com, info@srca.com.pk, sjangda@srca.com.pk",
         subject: `Message from ${req.body.email}: ${req.body.select}`,
         text: `${req.body.message} Contact me for more details ${req.body.number}`
     }
