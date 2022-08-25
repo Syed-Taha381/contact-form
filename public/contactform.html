@@ -13,10 +13,10 @@
     <div class="form-container">
         <div class="row">
             <form class="contact-form">
-                <input type="text" id="name" class="form-input" placeholder="Your Name"><br>
-                <input type="email" id="email" class="form-input" placeholder="Your Email"><br>
-                <input type="number" id="number" class="form-input" placeholder="Your Number"><br>
-                <select id="ddlViewBy" class="form-input">
+                <input type="text" id="name" class="form-input" required placeholder="Your Name"><br>
+                <input type="email" id="email" class="form-input" required placeholder="Your Email"><br>
+                <input type="number" id="number" class="form-input" required placeholder="Your Number"><br>
+                <select id="ddlViewBy" class="form-input" required>
                     <option value="" selected></option>
                     <option value="Logo Design">Logo Design</option>
                     <option value="Branding">Branding</option>
@@ -36,8 +36,8 @@
                     <option value="Social Media Marketing">Social Media Marketing</option>
                     <option value="Other">Other</option>
                 </select><br>
-                <textarea id="message" cols="30" rows="10" class="form-input" placeholder="Description"></textarea><br>
-                <input type="submit" value="Send Message" class="submit-form" onclick="Open()">
+                <textarea id="message" cols="30" rows="10" class="form-input" required placeholder="Description"></textarea><br>
+                <input type="submit" value="Send Message" required class="submit-form" onclick="Open()">
             </form>
         </div>
     </div>
